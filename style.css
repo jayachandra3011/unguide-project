@@ -1,0 +1,93 @@
+body{
+    background:white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background:#9013fe;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    border-radius: 20px;
+    align-self: center;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container>.row{
+    justify-content: space-evenly;
+    width: 100%;
+}
+.profile-icon{
+    border-radius: 50%;
+    border: 2px solid;
+}
+#circle {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: blue;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+.dot1{background-color:green}
+.dot2{background-color: red;}
+.dot3{background-color:green;}
+.dot4{background-color:white;}
+.dot5{background-color:white;}
+.dot6{background-color:green;}
+.dot7{background-color:red;}
+.dot8{background-color:white;}
+.dot9{background-color:white;}
+.dot10{background-color:white;}
+.name{
+    margin: 20px 0;
+    font-size: xx-large;
+    font-weight: bold;
+    color:white;
+}
+.round-runs{
+    font-size:xx-large;
+    width: 200px;
+    justify-content: space-evenly;
+}
+#striker-button{
+    width: 200px;
+    border-radius:10%;
+    font-size: x-large;
+    color:black;
+    font-weight: bold;
+    background:white;
+    padding:5px;
+    margin-top: 25px;
+    outline: none;
+}
+#striker-button:hover{
+    box-shadow: 0 0 10px 0 black;
+}
+.score{
+    margin:-80px 0 0;
+    font-size:xx-large;
+    font-weight:bolder;
+    color: white;
+    justify-content: center;
+}
+.score>span{
+    margin:0 5px;
+}
